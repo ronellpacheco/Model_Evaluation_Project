@@ -3,9 +3,11 @@
 ModelEvaluator is a project aimed at evaluating the performance of machine learning models, specifically CatBoost and RandomForest, for a classification task. The project involves data preprocessing, generating descriptive statistics, and comparing model performance with and without hyperparameter tuning.
 
 Data Preprocessing
+
 The dataset used in this project undergoes several preprocessing steps to handle missing values and address class imbalance. Categorical features are appropriately converted to string types, and class weights are used during model training.
 
 Descriptive Statistics Functions
+
 Two primary functions are developed using the Pandas library to generate descriptive statistics:
 
 continuous_descriptive_stats: Calculates descriptive statistics for continuous variables, optionally grouped by a categorical variable.
